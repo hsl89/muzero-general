@@ -1,0 +1,6 @@
+# bind to a remote port to check ray dashboard
+ssh -L 8080 localhost:8265 -i <my-pem-file> <remote-machine-ip>
+
+traffic on port 8265 on the remote machine is forwarded to localhost:8080
+
+
